@@ -1,0 +1,35 @@
+/* Museum Explorer Karlsruhe — generated from the design system tokens.json (light first, dark second). */
+:root, [data-theme="light"] {
+  --paper: #f4efe6; --surface: #fbf8f2; --bone: #e7dcc6; --line: #d9cfbd;
+  --ink: #1d1a15; --ink-muted: #5f5747;
+  --rust: #b4442a; --on-rust: #ffffff;
+  --basalt: #2f3b3a; --on-basalt: #f4efe6;
+  --amber: #d9a23b; --on-amber: #1d1a15;
+  --focus: var(--rust);
+  --shadow-sheet: 0 -8px 24px rgba(29,26,21,0.12);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14130f; --surface: #1d1b16; --bone: #2a261f; --line: #3a352c;
+    --ink: #efe8dc; --ink-muted: #b3a892;
+    --rust: #e2785a; --on-rust: #14130f;
+    --basalt: #3d4e4c; --on-basalt: #f4efe6;
+    --amber: #e6b552; --on-amber: #14130f;
+    --shadow-sheet: 0 -8px 24px rgba(0,0,0,0.5);
+  }
+}
+[data-theme="dark"] {
+  --paper: #14130f; --surface: #1d1b16; --bone: #2a261f; --line: #3a352c;
+  --ink: #efe8dc; --ink-muted: #b3a892;
+  --rust: #e2785a; --on-rust: #14130f;
+  --basalt: #3d4e4c; --on-basalt: #f4efe6;
+  --amber: #e6b552; --on-amber: #14130f;
+  --shadow-sheet: 0 -8px 24px rgba(0,0,0,0.5);
+}
+:root {
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-6: 24px; --space-8: 32px; --space-12: 48px; --space-16: 64px;
+  --radius-sm: 4px; --radius-md: 10px; --radius-lg: 20px; --radius-pill: 999px;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}

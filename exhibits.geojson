@@ -1,0 +1,55 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "layer": "museum",
+    "name": "State Museum of Natural History Karlsruhe"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.4003,
+     49.0073
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "layer": "discovery_site",
+    "exhibit_id": "EX01",
+    "name": "Quetzalcoatlus",
+    "name_de": "Quetzalcoatlus",
+    "place": "Big Bend National Park, Texas, USA",
+    "distance_km": 8999
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -103.25,
+     29.25
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "layer": "discovery_site",
+    "exhibit_id": "EX02",
+    "name": "Three-toed horse",
+    "name_de": "Dreizehiges Urpferd",
+    "place": "Höwenegg, Immendingen (Hegau), Germany",
+    "distance_km": 124
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     8.7416,
+     47.9144
+    ]
+   }
+  }
+ ]
+}

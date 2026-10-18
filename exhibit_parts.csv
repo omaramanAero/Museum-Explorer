@@ -1,0 +1,20 @@
+exhibit_id,part_no,part_id,name,name_de,term,function,model_x,model_y,model_z
+EX01,1,crest,Head crest,Kopfkamm,cranial crest,"Most likely display: signalling species, age or maturity to other pterosaurs.",0.04,0.98,3.65
+EX01,2,beak,Toothless beak,Zahnloser Schnabel,rostrum,"Catching food. Many researchers think it stalked on the ground like a giant stork, snapping up small animals; other feeding ideas are still debated.",0.07,0.3,4.75
+EX01,3,neck,Long neck,Langer Hals,cervical vertebrae,Reaching down to the ground for food while standing on all fours.,0.14,0.5,2.1
+EX01,4,pteroid,Pteroid bone,Pteroid,os pteroideum,"It supported the small front membrane (propatagium). Angling it changed the wing's leading edge, helping to control lift at low speed.",1.5,0.15,0.62
+EX01,5,wingfinger,Wing finger,Flugfinger,4th finger (digit IV),Holding the outer membrane taut in flight; it folded away when the animal walked.,3.9,0.1,0.1
+EX01,6,membrane,Wing membrane,Flughaut,brachiopatagium,The lifting surface for flight.,2.6,-0.05,-0.9
+EX01,7,hindlimb,Hind limb,Hinterbein,"femur, tibia, foot","Walking, and the first push at take-off. Most researchers think giant pterosaurs launched on all fours, vaulting into the air mainly with their strong arms.",0.4,-0.3,-1.25
+EX02,1,skull,Skull,Schädel,cranium,Houses the brain and the senses; its length makes room for the long rows of cheek teeth.,0.1,1.55,1.1
+EX02,2,teeth,High-crowned teeth,Hochkronige Zähne,hypsodont cheek teeth,Grinding tough plant food for many years without wearing out.,0.06,1.32,1.3
+EX02,3,threetoes,Three-toed foot,Dreizehiger Fuß,"digits II, III and IV",Support and grip; the side toes probably touched the ground only on soft footing or at speed – still being studied.,0.19,0.08,0.36
+EX02,4,cannon,Cannon bone,Röhrbein,metacarpal III,A light lever that lengthens the stride for fast running.,0.17,0.3,0.3
+EX02,5,spine,Spine and withers,Wirbelsäule und Widerrist,vertebral column,Carries the body between the limbs and lets the horse lower its head to graze without effort.,0.05,1.42,0.0
+EX02,6,hindlimb,Hind limb,Hinterbein,"femur, tibia, metatarsal",The main engine for running: the hind legs push the body forward.,0.17,0.62,-0.68
+EX03,1,rostrum,Arched upper jaw,Gewölbter Oberkiefer,rostrum,"Makes room for the baleen plates, which in right whales can be over two metres long.",0.25,2.95,4.8
+EX03,2,mandible,Lower jaw,Unterkiefer,mandibles,With the lips they scoop around the baleen while the whale skims the water with its mouth open.,1.32,1.68,4.2
+EX03,3,flipper,Flipper,Brustflosse,"humerus, radius, ulna, phalanges",Steering and balance; the tail does the pushing.,1.2,0.45,1.72
+EX03,4,ribs,Ribs,Rippen,costae,Protect heart and lungs while letting the chest compress during dives.,1.32,1.3,0.9
+EX03,5,pelvis,Pelvic remnant,Beckenrest,vestigial pelvic bones,No longer used for walking; they anchor muscles of the reproductive organs.,0.45,1.1,-1.62
+EX03,6,tail,Tail vertebrae,Schwanzwirbel,caudal vertebrae,Muscles along these vertebrae drive the up-and-down stroke that powers swimming.,0.12,1.75,-5.6
