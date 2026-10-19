@@ -72,7 +72,7 @@
       </article></div>`;
     }).join('');
   }
-  fetch('data/exhibits.json').then((r) => r.json()).then((d) => { data = d; draw(); });
+  fetch('exhibits.json').then((r) => r.json()).then((d) => { data = d; draw(); });
   input.addEventListener('input', () => data && draw());
 })();
 </script>
