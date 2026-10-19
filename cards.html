@@ -51,11 +51,38 @@
   const here = location.href.replace(/[#?].*$/, '').replace(/cards\.html$/, '');
   input.value = q || here;
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  let data;
+  
+  const data = {
+    "exhibits": [
+      {
+        "id": "EX01",
+        "name": { "en": "Quetzalcoatlus", "de": "Quetzalcoatlus" },
+        "sci": "Quetzalcoatlus northropi",
+        "eyebrow": { "en": "Giant pterosaur", "de": "Riesenflugsaurier" },
+        "era": { "en": "Late Cretaceous · ~68 Ma", "de": "Oberkreide · ~68 Mio. J." }
+      },
+      {
+        "id": "EX02",
+        "name": { "en": "Three-toed horse", "de": "Dreizehiges Urpferd" },
+        "sci": "Hippotherium primigenium",
+        "eyebrow": { "en": "Höwenegg fossil · mounted skeleton", "de": "Höwenegg-Fossil · montiertes Skelett" },
+        "era": { "en": "Late Miocene · 10.3 Ma", "de": "Obermiozän · 10,3 Mio. J." }
+      },
+      {
+        "id": "EX03",
+        "name": { "en": "North Atlantic right whale", "de": "Nordkaper" },
+        "sci": "Eubalaena glacialis",
+        "eyebrow": { "en": "Skeleton · largest object in the museum", "de": "Skelett · größtes Schauobjekt" },
+        "era": { "en": "Living species · critically endangered", "de": "Lebende Art · vom Aussterben bedroht" }
+      }
+    ]
+  };
+
   function qrSvg(text) {
     const q = qrcode(0, 'M'); q.addData(text); q.make();
     return q.createSvgTag({ cellSize: 4, margin: 0, scalable: true });
   }
+
   function draw() {
     let base = input.value.trim();
     document.getElementById('sheet').innerHTML = data.exhibits.map((e) => {
@@ -72,8 +99,9 @@
       </article></div>`;
     }).join('');
   }
-  fetch('exhibits.json').then((r) => r.json()).then((d) => { data = d; draw(); });
-  input.addEventListener('input', () => data && draw());
+
+  draw();
+  input.addEventListener('input', () => draw());
 })();
 </script>
 </body>
