@@ -14,7 +14,7 @@
   {
    "id": "EX01",
    "hero": true,
-   "model": "quetzalcoatlus.glb",
+   "model": "models/quetzalcoatlus.glb",
    "animations": [
     "Flap",
     "Glide"
@@ -352,7 +352,7 @@
   },
   {
    "id": "EX02",
-   "model": "hippotherium_skeleton.glb",
+   "model": "models/hippotherium_skeleton.glb",
    "animations": [],
    "orbit": "35deg 75deg 3.4m",
    "name": {
@@ -662,7 +662,7 @@
   },
   {
    "id": "EX03",
-   "model": "nordkaper_skeleton.glb",
+   "model": "models/nordkaper_skeleton.glb",
    "animations": [],
    "orbit": "60deg 75deg 20m",
    "name": {
